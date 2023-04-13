@@ -1,16 +1,68 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <table id="table-1" class="middle">
+        <tr>
+            <td>left</td>
+            <td class="center">center</td>
+            <td class="right">right</td>
+        </tr>
+        <tr>
+            <td>left</td>
+            <td class="center">center</td>
+            <td class="right">right</td>
+        </tr>
+        <tr>
+            <td id="t11">left</td>
+            <td id="t12" class="center">center</td>
+            <td id="t13" class="right">right</td>
+        </tr>
+    </table>
+    <br><br>
+    <table id="table-2" class="middle">
+        <tr><td id="t21" colspan="6"></td></tr>
+        <tr>
+            <td rowspan="4"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="3" rowspan="2"></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr><td colspan="6"></td></tr>
+    </table>
+    <br><br>
+    <table id="table-3" class="middle">
+        <tr><td class="green" colspan="3"></td></tr>
+        <tr>
+            <td></td>
+            <td id="t-image"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRm0UlCsl59bY9Tx3VLNVAqQGvio5hnITmZX5OnzQDdTpN94I78" alt=""></td>
+            <td></td>
+        </tr>
+        <tr><td class="blue" colspan="3"></td></tr>
+    </table>
 </body>
-
 </html>
